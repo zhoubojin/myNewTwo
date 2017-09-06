@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background:#efefef;
+	}
+/*=================header==================*/
+header
+{
+	width:100%;
+	height:130px;
+	position:relative;
+	}
+header div
+{
+	width:1090px;
+	height:130px;
+	margin:0 auto;
+	}
+header div h1
+{
+	padding-top:40px;
+	}
+header div p
+{
+	font-size:18px;
+	position:absolute;
+	top:50px;
+	right:100px;
+	}
+header div p a
+{
+	color:#f00;
+	}
+
+/*====================main=====================*/
+main
+{
+	width:100%;
+	height:1000px;
+	}
+main #wai_div
+{
+	width:1090px;
+	height:1000px;
+	margin:0 auto;
+	box-shadow:inset 1px 1px 5px 1px #dbdada;
+	border-radius:20px 20px 20px 20px; 
+	background:#fff;
+	}
+main #wai_div #main_firstDiv{
+	padding-top: 60px;
+	width:380px;
+	height: 50px;
+	margin: auto;
+	text-align: center;
+	font-size: 18px;
+}
+main #wai_div #main_firstDiv p:first-child{
+	float: left;
+	width:189px;
+	height: 48px;
+	line-height: 50px;
+	background: #ca5252;
+	color: #fff;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+main #wai_div #main_firstDiv p:last-child{
+	float: left;
+	width:189px;
+	height: 48px;
+	line-height: 50px;
+	background: #fff;
+	position: relative;
+	color: #000;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}	
+main #wai_div #main_firstDiv p:last-child span{
+	font-size: 10px;
+	color: #fff;
+	display: inline-block;
+	width:25px;
+	height:15px;
+	background: #ca5252;
+	position: absolute;
+	top: 5px;
+	line-height: 10px;
+}
+main #qianhao{
+	padding-top:60px;
+	font-size:16px;
+	width:380px;
+	height:600px;
+	margin:0 auto;
+	display: none;
+}
+main #qianhao a{
+	text-align: center;
+	display: block;
+	margin: 60px auto;
+	width: 140px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #c3a482;
+	border-radius: 6px;
+	color: #c3a482;
+}
+
+main #wai_div form
+{
+	padding-top:30px;
+	font-size:20px;
+	width:380px;
+	height:600px;
+	margin:0 auto;
+	}
+main #wai_div form input
+{
+	width:170px;
+	height:30px;
+	}
+main #wai_div form p
+{
+	font-size:14px;
+	color:#dedede;
+	text-align: center;
+	}
+main #wai_div form .inp_sub
+{
+	width:275px;
+	height:40px;
+	color:#fff;
+	background:#df9797;
+	border-radius:10px 10px 10px 10px;
+	}	
+main #wai_div form .inp_check
+{
+	width:15px;
+	height:15px;
+	top:12px;
+	left:10px;
+	}
+main #wai_div form .pp_check
+{
+	font-size:14px;
+	color:#ccc;
+	}
+main #wai_div form .pp_check a
+{
+	font-size:14px;
+	color:#ccc;
+	}
+main #wai_div form .pp_check a:hover
+{
+	color:#000;
+	}
+main #wai_div .main_img
+{
+	width:900px;
+	height:100px;
+	margin:0 auto;
+	}
+	
+
+/*====================footer=====================*/
+footer
+{
+	width:100%;
+	height:150px;
+	}
+footer div
+{
+	width:1090px;
+	height:150px;
+	margin:0 auto;
+	}
+footer div ul
+{
+	width:600px;
+	height:20px;
+	margin:0 auto;
+	padding-top:30px;
+	}
+footer div ul li
+{
+	float:left;
+	}
+footer div p
+{
+	padding-top:20px;
+	text-align:center;
+	}
+
+
+
+
+
+
+
